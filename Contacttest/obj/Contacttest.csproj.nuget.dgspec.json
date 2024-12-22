@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\Contacttest\\Contacttest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\CMSBU\\CMSBU.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\CMSBU\\CMSBU.csproj",
+        "projectName": "CMSBU",
+        "projectPath": "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\CMSBU\\CMSBU.csproj",
+        "frameworks": {
+          "net40-client": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net40-client": {}
+      }
+    },
+    "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\Contacttest\\Contacttest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\Contacttest\\Contacttest.csproj",
+        "projectName": "Contacttest",
+        "projectPath": "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\Contacttest\\Contacttest.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\Contacttest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\CMSBU\\CMSBU.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Contact Managment System Project\\Contact Management System\\CMSBU\\CMSBU.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "System.Windows.Forms": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.10.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
